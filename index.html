@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Jeju Island is a popular destination for retreat and exploring its beautiful nature. Jeju is located Southwest of the Korean Penisula and also well known as a beautiful volcanic island with triple Unesco World Heritage Sites. This website introduces the breathtaking beauty and history of Jeju island.">
+	<title>Jeju Tourism</title>
+    <!-- Favicon  -->
+    <link rel="icon" href="favicon/favicon.ico" sizes="any"> 
+    <link rel="icon" href="favicon/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="favicon/apple-touch-icon.png"/>
+    <link rel="manifest" href="favicon/site.webmanifest" />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles/normalize-fwd.css">
+	<link rel="stylesheet" href="styles/style.css">
+    <!-- Sctipts -->
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/script.js" defer></script>
+</head>
+<body>
+
+	<div class="site-wrapper">
+
+		<header class="site-header">
+
+
+			<a href="index.html" class="site-name" id="site-name"><img width= "150" height= "150" src="favicon/jeju-logo-w-name.png" alt="Site logo"></a>
+			
+            <nav class="site-navigation" id="site-navigation">
+				<button class="menu-toggle" aria-controls="header-menu" aria-expanded="false" aria-label="Menu Toggle"><svg width="36" height="36" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m11 16.745c0-.414.336-.75.75-.75h9.5c.414 0 .75.336.75.75s-.336.75-.75.75h-9.5c-.414 0-.75-.336-.75-.75zm-9-5c0-.414.336-.75.75-.75h18.5c.414 0 .75.336.75.75s-.336.75-.75.75h-18.5c-.414 0-.75-.336-.75-.75zm4-5c0-.414.336-.75.75-.75h14.5c.414 0 .75.336.75.75s-.336.75-.75.75h-14.5c-.414 0-.75-.336-.75-.75z" fill-rule="nonzero"/></svg>
+						<title>Menu Icon</title>
+						<path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"></path>
+					</svg>
+				</button>
+
+				<ul class="nav-menu" id="header-menu">
+					<li class="nav-item"><a href="index.html"><p>Home</p></a></li>
+					<li class="nav-item"><a href="about.html"><p>About</p></a></li>
+					<li class="nav-item"><a href="discover.html"><p>Discover</p></a></li>
+					<li class="nav-item"><a href="eat-and-drink.html"><p>Eat&Drink</p></a></li>
+					<li class="nav-item"><a href="credits.html"><p>Credits</p></a></li>
+                </ul>
+
+			</nav>
+
+		</header>
+
+		<main class="site-main">
+
+            <section class = "hero">
+                <div class ="slideshow-container">
+                    <div class="slide fade">
+                        <img src = "images/shore.jpg?t=2" alt="Jeju Yongmeori Coast">
+                        <h1 class="sl-text">Volcanics</h1>
+                    </div>
+
+                    <div class="slide fade">
+                        <img src = "images/seongsan-from-the-air.jpg" alt="Seongsan Ilchulbong Sunrise Peak">
+                        <h1 class="sl-text">Sunrise Peak</h1>
+                    </div>
+
+                    <div class="slide fade">
+                        <img src = "images/horses.jpg" alt="Horses in Meadow">
+                        <h1 class="sl-text">Cultural Heritage </h1>
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+                </div>
+                <br>
+                <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
+            </section>
+
+
+
+			<section class="greeting-msg">
+                <h1>Welcome to Jeju Island </br> [혼저 옵서예]</h1>
+                <p>Jeju is the only self-governing province in South Korea, meaning that the province is run by local inhabitants instead of politicians from the mainland. </p>
+                </h2>
+            </section>
+			
+			<section class="summary">
+                <h2>About</h2>
+                <div class="each-summary">                
+                    <article>
+                        <img src = "images/town.jpg" alt="A town in sunset">
+                        <p>Beautiful Sunset in Town </p>
+                    </article>
+                    <article>
+                        <img src = "images/hareubang-beach.jpg" alt = "Dolhareubang"> 
+                        <p>Dolhareubang</p>
+                    </article>
+                    <article>
+                        <img src = "images/haenyeo-diving3.jpg" alt="Jeju Haenyo(Sea Women)">
+                        <p>Culture of Juju Hanyeo</p>
+                    </article>
+                </div>
+                <h2>Discover</h2>
+                <div class="each-summary">                
+                    <article>
+                        <img src = "images/cheonjiyeon-falls.jpg" alt="Cheonjiyeon Waterfalls
+                        ">
+                        <p>Cheonjiyeon Waterfalls
+                        </p>
+                    </article>
+                    <article>
+                        <img src = "images/jeju-beach.jpg" alt="Hyeopjae Beach in Summer">
+                        <p>Hyeopjae Beach</p>
+                    </article>
+                    <article>
+                        <img src = "images/child-running.jpg" alt="Green Tea Fields">
+                        <p>Green Tea Fields</p>
+                    </article>
+                </div>
+                <h2>Eat&drink</h2>
+                <div class="each-summary">                
+                    <article>
+                        <img src = "images/abalone-food.jpeg" alt="Korean Abalone Dishes">
+                        <p>Grilled Abalone</p>
+                    </article>
+                    <article>
+                        <img src = "images/jeju-black-pig.jpeg" alt = "Jeju Black Pork BBQ">
+                        <p>Jeju Black Pork BBQ</p>
+                    </article>
+                    <article>
+                        <img src = "images/jeju-dessert.jpeg" alt = "Pancake and Coffee">
+                        <p>Pancake & Coffee</p>
+                    </article>	
+                </div>			
+			</section>
+            <section class="bottom">
+                <a href="index.html"><svg width= "35" height= "35" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m2.014 11.998c0 5.517 4.48 9.997 9.998 9.997s9.997-4.48 9.997-9.997c0-5.518-4.479-9.998-9.997-9.998s-9.998 4.48-9.998 9.998zm6.211-1.524s1.505-1.501 3.259-3.254c.146-.147.338-.22.53-.22s.384.073.53.22c1.754 1.752 3.258 3.254 3.258 3.254.145.145.217.335.217.526 0 .192-.074.384-.221.53-.292.293-.766.295-1.057.004l-1.977-1.977v6.693c0 .414-.336.75-.75.75s-.75-.336-.75-.75v-6.693l-1.979 1.978c-.289.289-.761.287-1.054-.006-.147-.147-.221-.339-.222-.53 0-.191.071-.38.216-.525z" fill-rule="nonzero"/><title>Back to Top</title></svg></a>
+            </section>
+		</main>
+
+		<footer class="site-footer">
+			<p>&copy; 2023 Ahreum Han</p>
+			<p>For Educatoin Purpose Only</p>
+		</footer>
+
+	</div>
+
+</body>
+</html>
